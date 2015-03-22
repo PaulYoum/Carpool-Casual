@@ -11,6 +11,6 @@
  * file per style scope.
  *
  *= require global
- *= require match
+ *= require landing
  *= require_self
  */

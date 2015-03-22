@@ -26,20 +26,29 @@
     </li>
   </ul>
 
+  <br class="clear" />
+  
   <h2>Featured events</h2>
   <ul>
     <li>
-      <%#= image_tag("logo-white.png", alt: "logo", width: 385, height: 62 ) %> <br />
+      <%= image_tag("hackcommute.png", alt: "hack", width: 148, height: 100 ) %> <br />
     </li>
     <li>
-      <%#= image_tag("logo-white.png", alt: "logo", width: 385, height: 62 ) %> <br />
+      <%= image_tag("tasteofwashington.jpg", alt: "taste", width: 177, height: 100 ) %> <br />
     </li>
     <li>
-      <%#= image_tag("logo-white.png", alt: "logo", width: 385, height: 62 ) %> <br />
+      <%= image_tag("mercer_island_half_logo.png", alt: "mercer", width: 325, height: 100 ) %> <br />
     </li>
   </ul>
+
+  <br class="clear" />
+
   <div>
-    Get new and updates from us: 
+    Get new and updates from us:
+        <%= text_field_tag(:email, nil, placeholder: "Your email(we don't share your info with anyone)" ) %>
+        <%= button_tag(type: 'button') do %>
+          <%= content_tag(:strong, 'OK') %>
+        <% end %>
   </div>
 
 </section>
