@@ -1,5 +1,5 @@
 
-![Carpool Casual](/app/assets/images/logo.png)
+![Carpool Casual](/app/assets/images/logo2.png)
 
 [Carpool Casual](http://www.carpoolcasual.com) is the most convenient way to arrange shared rides to and from events with people who share similar interests.
 
