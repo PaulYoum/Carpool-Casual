@@ -7,7 +7,7 @@ By focusing on arranging carpools between participants of an event with a common
 
 Casual Carpool was developed on March 22nd, 2015 for the [Hack the Commute](http://hackthecommute.seattle.gov).
 
-Our app is live at http://example.com/awesome-app-that-doesnt-exist. You can log in as the demo user "unicorns" with password "sartfarkles". You can also check out [this demo screencast](https://www.youtube.com/watch?v=dQw4w9WgXcQ) of our application on YouTube.
+Our app is live at http://carpoolcasual.
 
 ## Challenge and Approach
 
