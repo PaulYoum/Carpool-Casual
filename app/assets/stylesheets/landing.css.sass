@@ -1,17 +1,80 @@
-h1
-  text-align: center
-
-h2
-  float: left
-
-li
-  float: left
-  width: 400px
-
-ul:after
-  clear: both
-
-section
+body
   background-image: url(tulips_background.jpg)
   color: white
+  text-shadow: 1px 1px 3px #666666
+
+header
+  
+  > div
+    width: 1000px
+    margin: 0 auto
+    text-align: center
+
+  h2
+    color: #FFFFFF
+    font-size: 3.6em
+    font-weight: 200
+
+.landing
+  font-size: 1.8em
+
+  h1
+    text-align: center
+
+  h2
+    float: right
+
+  .bullet
+    margin: 0 0 40px
+
+    li
+      float: left
+      width: 33.3%
+
+      p
+        display: block
+        height: 260px
+        margin: 0 20px
+        padding: 10px
+        background: rgba(0,0,0,0.5)
+        border-radius: 260px
+        text-align: center
+
+        span
+          display: block
+          padding: 90px 0 0
+
+  .images li
+    float: right
+    margin: 10px
+
+  .featured-title
+    display: inline-block
+    margin: 48px 0 0
+    font-size: 1.8em
+
+  .email-capture
+    font-size: 1.2em
+    text-align: right
+
+    input
+      display: inline-block
+      width: 500px
+      height: 40px
+      margin-left: 20px
+      padding: 7px
+      font-size: 0.9em
+      text-align: center
+    
+    button
+      display: inline-block
+      position: relative
+      top: -1px
+      height: 41px
+      margin: 0 0 0 -10px
+      padding: 7px 20px
+      border: 0
+      background-color: green
+      color: #FFFFFF
+      cursor: pointer
 

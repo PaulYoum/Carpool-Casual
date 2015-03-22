@@ -1,35 +1,37 @@
-<section>
-  <div>
-    <h1>
-      <%= image_tag("logo-white.png", alt: "logo", width: 385, height: 62 ) %> <br />
-      Make events you already go to more personal
-    </h1>
+<section class="landing">
+ 
+  <div class="bullet">
+    <ul>
+      <li>
+        <p>
+          <span>
+            Going to events alone can be intimidating. Get to know at least one person by getting there together.
+          </span>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <span>
+            Get there with ease and peace of mind with our reliable matching and routing suggestions.
+          </span>
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <span>
+            Help reduce your emission footprint and traffic on the road.
+          </span>
+        </p>
+      </li>
+    </ul>
+  
+    <br class="clear" />
   </div>
   
-  <ul>
-    <li>
-      <p>
-        Going to events alone can be intimidating. Get to know at least one person by getting there together.
-      </p>
-    </li>
 
-    <li>
-      <p>
-        Get there with ease and peace of mind with our reliable matching and routing suggestions.
-      </p>
-    </li>
-
-    <li>
-      <p>
-        Help reduce your emission footprint and traffic on the road.
-      </p>
-    </li>
-  </ul>
-
-  <br class="clear" />
-  
-  <h2>Featured events</h2>
-  <ul>
+  <ul class="images">
     <li>
       <%= image_tag("hackcommute.png", alt: "hack", width: 148, height: 100 ) %> <br />
     </li>
@@ -41,14 +43,14 @@
     </li>
   </ul>
 
+  <span class="featured-title">Featured events</span>
+
   <br class="clear" />
 
-  <div>
-    Get new and updates from us:
-        <%= text_field_tag(:email, nil, placeholder: "Your email(we don't share your info with anyone)" ) %>
-        <%= button_tag(type: 'button') do %>
-          <%= content_tag(:strong, 'OK') %>
-        <% end %>
+  <div class="email-capture">
+    <span>Get news and updates from us:</span>
+    <%= text_field_tag(:email, nil, placeholder: "Your email(we don't share your info with anyone)" ) %>
+    <%= button_tag 'OK' %>
   </div>
 
 </section>
