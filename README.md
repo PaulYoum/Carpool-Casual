@@ -22,7 +22,7 @@ Our approach for satisfying this challenge was to:
 - Create a responsive HTML app so all that's needed is a browser. You don't have to own a smartphone, and that means we can target users in all demographics.
 - Only one event is available for this implementation
 - Design algorithm to match passengers to driver based upon available seats and proximity to driver
-- Email users when matches are found
+- Automaticlly email group matches and route details the night prior to the event
 
 
 ## Team Members
