@@ -7,19 +7,22 @@ By focusing on arranging carpools between participants of an event with a common
 
 Casual Carpool was developed on March 22nd, 2015 for the [Hack the Commute](http://hackthecommute.seattle.gov).
 
-Our app is live at http://example.com/awesome-app-that-doesnt-exist. You can log in as the demo user "unicorns" with password "sartfarkles". You can also check out [this demo screencast](https://www.youtube.com/watch?v=dQw4w9WgXcQ) of our application on YouTube.
+Our app is live at http://carpoolcasual.
 
 ## Challenge and Approach
 
-Our submission seeks to solve two problems
+Our submission seeks to solve two problems:
+
 1. Encourage users to select options that relieve pressure on the overall transportation network
 2. Create an app that serves citizens at all income levels ￼and from all neighborhoods
 
 Our approach for satisfying this challenge was to:
 
-- In order to serve the largest group of people, we created a responsive HTML app so all that's needed is a browser. You don't have to own a smartphone.
-- Share it on Github
-- Collect feedback from the community
+- Create a beta signup version to test carpooling interest to common destination
+- Create a responsive HTML app so all that's needed is a browser. You don't have to own a smartphone, and that means we can target users in all demographics.
+- Only one event is available for this implementation
+- Design algorithm to match passengers to driver based upon available seats and proximity to driver
+- Automaticlly email group matches and route details the night prior to the event
 
 
 ## Team Members
