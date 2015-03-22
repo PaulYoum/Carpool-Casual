@@ -1,8 +1,10 @@
-# Evergreen Awesome Hackathon: My Sample App
+# Carpool Casual
 
-The purpose of this app is to provide an example of how to best format an app submission on [Github](http://github.com) for a hackathon. If you'd like to suggest changes or improvements to this example, feel free to send me a pull request.
+ [Carpool Casual](http://www.carpoolcasual.com) is the most convenient way to arrange shared rides to and from events with people who share similar interests.
 
-This application was developed on February 5th, 2015 for the [Evergreen Awesome Hackthon](http://example.com/this-goes-nowhere).
+By focusing on arranging carpools between participants of an event with a common arrival time and destination, a trusted community of people with similar interests is created. Equally important, having a common destination makes carpooling convenient for the driver which will increase adoption of carpooling.
+
+Casual Carpool was developed on March 22nd, 2015 for the [Hack the Commute](http://hackthecommute.seattle.gov).
 
 ![Isn't our app beautiful?!](screenshot.jpg)
 
