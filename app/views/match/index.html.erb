@@ -1,28 +1,27 @@
-<header>
-  <div>
-    <h1>Carpool Casual</h1>
-    <h2>Serious impact</h2>
-  </div>
-</header>
 
-<section id="drive_pass">
+<section id="ride-details">
 
-  <p>Are you a driver or passenger?</p>
+  <h3>Are you a driver or passenger?</h3>
 
-  <ul>
+  <%= form_tag "", autocomplete: 'off' do %>
+
+  <ul class="driver-option">
     <li>
 
       <%= label_tag(:can_drive) do %>
-      <%= radio_button_tag(:drive_ride, "drive", false, id: "can_drive") %>
+      <%= radio_button_tag(:drive_ride, "drive", false, id: "can_drive", class: "drive-toggle") %>
       <span>I can drive</span>
       <% end %>
       
-      <div class="drive_hidden">
-        <%= text_field_tag(:address1, nil, placeholder: "Address" ) %>
-        <%= text_field_tag(:address2, nil, placeholder: "City, State Zip")  %>
-       
-        <h3>Passenger preference</h3>
-          <ul>
+      <div class="ride-options">
+        <div>
+          <div class="address">
+            <%= text_field_tag(:address1, nil, placeholder: "Address" ) %>
+            <%= text_field_tag(:address2, nil, placeholder: "City, State Zip")  %>
+          </div>
+         
+          <h4>Passenger preference</h4>
+          <ul class="option-list">
             <li>
               <%= label_tag(:women) do %>
               <%= radio_button_tag(:preference, "Women", false, id: "women") %>
@@ -42,21 +41,24 @@
               <% end %>
             </li>
           </ul>
+        </div>
       </div>
     </li>
     
     <li>
       <%= label_tag(:need_ride) do %>
-      <%= radio_button_tag(:drive_ride, "ride", false, id: "need_ride") %>
+      <%= radio_button_tag(:drive_ride, "ride", false, id: "need_ride", class: "drive-toggle") %>
       <span>I need a ride</span>
       <% end %>
 
-      <div class="ride_hidden">
-        
-        <%= text_field_tag(:address1, nil, placeholder: "Address" ) %>
-        <%= text_field_tag(:address2, nil, placeholder: "City, State Zip")  %>
-       
-        <h3>Passenger preference</h3>
+      <div class="ride-options">
+        <div>
+          <div class="address">
+            <%= text_field_tag(:address1, nil, placeholder: "Address" ) %>
+            <%= text_field_tag(:address2, nil, placeholder: "City, State Zip")  %>
+          </div>
+         
+          <h4>Passenger preference</h4>
           <ul>
             <li>
               <%= label_tag(:women_ride) do %>
@@ -77,9 +79,22 @@
               <% end %>
             </li>
           </ul>
+        </div>
       </div>
     </li>
   </ul>
 
+  <% end %>
 
 </section>
+
+<%= javascript_tag do %>
+
+  $('#ride-details').on('change', '.drive-toggle', function(evt) {
+    var optionContainers = jQuery(this).find('.driver-option .ride-options');
+    optionContainers.removeClass('active');
+    var targetElement = jQuery(evt.target).closest('li').find('.ride-options');
+    targetElement.addClass('active');
+  })
+
+<% end %>
