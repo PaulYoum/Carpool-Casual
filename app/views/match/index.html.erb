@@ -1,0 +1,85 @@
+<header>
+  <div>
+    <h1>Carpool Casual</h1>
+    <h2>Serious impact</h2>
+  </div>
+</header>
+
+<section id="drive_pass">
+
+  <p>Are you a driver or passenger?</p>
+
+  <ul>
+    <li>
+
+      <%= label_tag(:can_drive) do %>
+      <%= radio_button_tag(:drive_ride, "drive", false, id: "can_drive") %>
+      <span>I can drive</span>
+      <% end %>
+      
+      <div class="drive_hidden">
+        <%= text_field_tag(:address1, nil, placeholder: "Address" ) %>
+        <%= text_field_tag(:address2, nil, placeholder: "City, State Zip")  %>
+       
+        <h3>Passenger preference</h3>
+          <ul>
+            <li>
+              <%= label_tag(:women) do %>
+              <%= radio_button_tag(:preference, "Women", false, id: "women") %>
+              <span>Women</span>
+              <% end %>
+            </li>
+            <li>
+              <%= label_tag(:men) do %>
+              <%= radio_button_tag(:preference, "Men", false, id: "men") %>
+              <span>Men</span>
+              <% end %>
+            </li>
+            <li>
+              <%= label_tag(:none) do %>
+              <%= radio_button_tag(:preference, "None", false, id: "none") %>
+              <span>None</span>
+              <% end %>
+            </li>
+          </ul>
+      </div>
+    </li>
+    
+    <li>
+      <%= label_tag(:need_ride) do %>
+      <%= radio_button_tag(:drive_ride, "ride", false, id: "need_ride") %>
+      <span>I need a ride</span>
+      <% end %>
+
+      <div class="ride_hidden">
+        
+        <%= text_field_tag(:address1, nil, placeholder: "Address" ) %>
+        <%= text_field_tag(:address2, nil, placeholder: "City, State Zip")  %>
+       
+        <h3>Passenger preference</h3>
+          <ul>
+            <li>
+              <%= label_tag(:women_ride) do %>
+              <%= radio_button_tag(:preference, "Women", false, id: "women_ride") %>
+              <span>Women</span>
+              <% end %>
+            </li>
+            <li>
+              <%= label_tag(:men_ride) do %>
+              <%= radio_button_tag(:preference, "Men", false, id: "men_ride") %>
+              <span>Men</span>
+              <% end %>
+            </li>
+            <li>
+              <%= label_tag(:none_ride) do %>
+              <%= radio_button_tag(:preference, "None", false, id: "none_ride") %>
+              <span>None</span>
+              <% end %>
+            </li>
+          </ul>
+      </div>
+    </li>
+  </ul>
+
+
+</section>
