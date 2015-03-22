@@ -1,11 +1,36 @@
-header > div
-  width: 960px
-  margin: 0 auto
 
-#drive_pass
-  width: 960px
-  margin: 0 auto
+.driver-option > li
+  margin: 0 0 5px
 
-ul
-  list-style-type: none
-  margin: 0 auto
+  > label
+    cursor: pointer
+
+.ride-options
+  display: block
+  position: relative
+  height: 0
+  margin: 0 0 0 16px
+  overflow: hidden
+
+  > div
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 250px
+    padding: 7px 0 35px
+
+  .address
+
+    input
+      display: block
+      width: 100%
+      margin: 0 0 5px
+      padding: 7px
+      border: 1px solid black
+
+  li
+    margin: 0 0 3px
+
+.ride-options.active
+  height: 222px
+

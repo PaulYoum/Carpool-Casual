@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title><%= "#{@page_title} - " unless @_page_title.blank? %>Carpool Casual</title>
-  <%= stylesheet_link_tag 'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title><%= "#{@page_title} - " unless @_page_title.blank? %>Carpool Casual</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Carpool Casual</h1>
+        <h2>Serious impact</h2>
+      </div>
+    </header>
 
-<%= yield %>
+    <%= yield %>
 
-</body>
+  </body>
 </html>
