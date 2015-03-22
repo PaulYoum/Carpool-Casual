@@ -1,5 +1,5 @@
 
-![Carpool Casual](/public/images/logo.png)
+![Carpool Casual](/app/assets/images/logo.png)
 
 [Carpool Casual](http://www.carpoolcasual.com) is the most convenient way to arrange shared rides to and from events with people who share similar interests.
 
@@ -13,11 +13,11 @@ Our app is live at http://example.com/awesome-app-that-doesnt-exist. You can log
 
 Our submission seeks to solve two problems
 1. Encourage users to select options that relieve pressure on the overall transportation network
-2. Create an app that serve citizens at all income levels ￼and from all neighborhoods
+2. Create an app that serves citizens at all income levels ￼and from all neighborhoods
 
 Our approach for satisfying this challenge was to:
 
-- Develop an example Git repository
+- In order to serve the largest group of people, we created a responsive HTML app so all that's needed is a browser. You don't have to own a smartphone.
 - Share it on Github
 - Collect feedback from the community
 
@@ -26,11 +26,11 @@ Our approach for satisfying this challenge was to:
 
 Our team is comprised of:
 
-- [@dragonc](http://twitter.com/dragonc)
-- [@xwingataliciousness](http://github.com/xwingataliciousness)
-- [@PaulYoum](http://github.com/PaulYoum)
-- [@shanelep](http://github.com/shanelep)
-- [@_davmar](http://twitter.com/_davmar)
+- [@dragonc](http://twitter.com/dragonc) Nikki Chau
+- [@xwingataliciousness](http://github.com/xwingataliciousness) Phillip Lee
+- [@PaulYoum](http://github.com/PaulYoum) Paul Youm
+- [@shanelep](http://github.com/shanelep) Bryan Lepitch
+- [@_davmar](http://twitter.com/_davmar) David Martin
 
 ## Technologies, APIs, and Datasets Utilized
 
