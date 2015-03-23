@@ -51,4 +51,4 @@ We made use of:
 Our code is licensed under the [MIT License](LICENSE.md). Pull requests will be accepted to this repo, pending review and approval.
 
 Please watch our demo online at:
-<iframe width="420" height="315" src="https://www.youtube.com/embed/XbDjWpjcLJw" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=XbDjWpjcLJw
