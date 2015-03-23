@@ -42,6 +42,8 @@ We made use of:
 - Google Directions API
 - Ruby on Rails
 - Apache
+- Phusion Passenger
+- MySQL
 - Microsoft Azure
 - Google Forms
 - MailChimp
