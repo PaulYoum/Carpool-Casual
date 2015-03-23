@@ -1,5 +1,6 @@
 <section class="landing">
- 
+  <%= show_message %>
+
   <div class="bullet">
     <ul>
       <li>
@@ -48,9 +49,11 @@
   <br class="clear" />
 
   <div class="email-capture">
-    <span>Get news and updates from us:</span>
-    <%= text_field_tag(:email, nil, placeholder: "Your email(we don't share your info with anyone)" ) %>
-    <%= button_tag 'OK' %>
+    <%= form_tag beta_signup_path do %>
+      <span>Get news and updates from us:</span>
+      <%= text_field_tag(:"signup[email]", nil, placeholder: "Your email(we don't share your info with anyone)" ) %>
+      <%= button_tag 'OK' %>
+    <% end %>
   </div>
 
 </section>

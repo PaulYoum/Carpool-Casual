@@ -6,6 +6,8 @@ Rails.application.routes.draw do
     get "", action: :index
   end
 
+  post 'beta-signup', controller: :landing, as: :beta_signup
+
   # You can have the root of your site routed with "root"
   root 'landing#index'
 
