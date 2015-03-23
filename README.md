@@ -44,5 +44,6 @@ We made use of:
 - Apache
 - Microsoft Azure
 - Google Forms
+- MailChimp
 
 Our code is licensed under the [MIT License](LICENSE.md). Pull requests will be accepted to this repo, pending review and approval.
